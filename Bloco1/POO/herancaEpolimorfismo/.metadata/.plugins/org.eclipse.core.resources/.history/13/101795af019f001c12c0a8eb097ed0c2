@@ -1,0 +1,12 @@
+package Exercicio2;
+
+public class Aviao {
+
+	String a,b,c;
+	a = "Avião de passeio";
+	b = "Avião internacional";
+	c = "Avião de guerra";
+	String AviaoPasseio, AviaoInternacional, AviaoGuerra;
+	public String x;
+
+}

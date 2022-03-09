@@ -1,0 +1,14 @@
+package Exercicio1;
+
+public class Animal {
+	
+	public String nome;
+	public int idade;
+	
+	public void som() {
+		System.out.println("Deve emitir som...");
+	}
+	public void mover() {
+		System.out.println("Forma de se mover...");
+	}
+}

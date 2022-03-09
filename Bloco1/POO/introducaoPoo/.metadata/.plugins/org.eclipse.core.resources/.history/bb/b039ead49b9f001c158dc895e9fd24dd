@@ -1,0 +1,14 @@
+package exercicio5;
+
+public class DadosPatinete {
+	
+	String nome;
+	int idade;
+	double salario;
+	
+	public void dadosColetados() {
+		System.out.println("Nome informado: " + nome);
+		System.out.println("Idade informada: " + idade);
+		System.out.println("Salário informado: " + salario);
+	}
+}

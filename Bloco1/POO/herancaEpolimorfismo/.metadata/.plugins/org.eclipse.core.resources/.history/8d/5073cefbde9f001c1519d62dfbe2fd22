@@ -1,0 +1,9 @@
+package Exercicio1;
+
+public class Animal2 {
+
+	private int nome;
+	
+
+	
+}

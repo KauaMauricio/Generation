@@ -1,0 +1,14 @@
+package exercicio2;
+
+public class DadosAviao {
+	
+	String marca;
+	int data;
+	double preco;
+	
+	public void dadosColetados() {
+		System.out.println("Nome informado: " + nome);
+		System.out.println("Idade informada: " + idade);
+		System.out.println("Salário informado: " + salario);
+	}
+}

@@ -1,0 +1,30 @@
+package introducaoPoo;
+
+import java.util.Scanner;
+
+public class Ocliente {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		Cliente c1;
+		
+		c1 = new Cliente();
+		
+		System.out.println("Dados do cliente");
+		System.out.println("Informe seu nome: ");
+		c1.nome = sc.next();
+		System.out.println("Informe seu email: ");
+		c1.email = sc.next();
+		System.out.println("Informe seu número: ");
+		c1.numero = sc.nextInt();
+		
+		System.out.println("Dados registrados pelo cliente " + c1.nome);
+		
+		System.out.println("Nome: " + c1.nome);
+		System.out.println("Email: " + c1.email);
+		System.out.println("Número: " + c1.numero);
+	}
+
+}

@@ -1,0 +1,30 @@
+package introducaoPoo;
+
+import java.util.Scanner;
+
+public class Ocliente {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		Cliente c1;
+		
+		c1 = new Cliente();
+		
+		System.out.println("Dados do primeiro cliente");
+		c1.nome = sc.next();
+		c1.horas = sc.nextInt();
+		c1.valorPorHora = sc.nextDouble();
+		
+		System.out.println("Dados do segundo cliente");
+		f2.nome = sc.next();
+		f2.horas = sc.nextInt();
+		f2.valorPorHora = sc.nextDouble();
+
+	}
+
+}
+
+
+chamado --- 603962

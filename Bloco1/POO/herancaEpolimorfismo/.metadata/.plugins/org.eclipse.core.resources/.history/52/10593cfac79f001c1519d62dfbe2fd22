@@ -1,0 +1,21 @@
+package Exercicio1;
+import java.util.Scanner;
+public class Animal {
+	
+	Scanner sc = new Scanner(System.in);
+	
+	public String nome;
+	public int idade;
+	
+	public void nomeAnimal() {
+		System.out.println("Digite o nome do animal: ");
+		nome = sc.nextLine();
+	}
+	
+	public void som() {
+		System.out.println("Deve emitir som...");
+	}
+	public void mover() {
+		System.out.println("Forma de se mover...");
+	}
+}

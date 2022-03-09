@@ -1,0 +1,13 @@
+package exercicio1;
+
+import exercicio1.DadosCliente;
+
+public class Cliente {
+
+	public static void main(String[] args) {
+		
+		DadosCliente dados = new DadosCliente();
+
+	}
+
+}

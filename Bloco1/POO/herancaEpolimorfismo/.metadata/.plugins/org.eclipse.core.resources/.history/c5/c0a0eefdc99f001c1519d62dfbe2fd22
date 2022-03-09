@@ -1,0 +1,19 @@
+package Exercicio1;
+
+import javax.swing.tree.AbstractLayoutCache;
+
+public class Cachorro {
+	
+	public static void main(String[] args) {
+		
+        Scanner sc = new Scanner(System.in);
+	    Animal ca = new Animal();
+	    
+	    ca.nomeAnimal();
+	    ca.idadeAnimal();
+	    ca.som();
+	    ca.mover();
+	
+	}
+}
+

@@ -1,0 +1,20 @@
+package exercicio1;
+
+public class Cliente {
+
+    //Atributos
+	public String nome;
+	public double salario;
+	public int anosnaEmpresa;
+	
+	//Método construtor
+	//public Cliente(String c1, double c1, int c1) 
+	//{
+	//	this.nome = c1;
+	//	this.salario = c1;
+	//	this.anosnaEmpresa = c1;
+	//}
+
+    //Métodos
+	
+}

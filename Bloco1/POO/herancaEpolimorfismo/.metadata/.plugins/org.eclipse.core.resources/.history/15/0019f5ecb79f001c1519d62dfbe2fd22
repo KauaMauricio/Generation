@@ -1,0 +1,8 @@
+package Exercicio1;
+import Animal.Cachorro;
+public class Cachorro extends Animal{
+
+	Animal cachorro = new Animal();
+	
+}
+

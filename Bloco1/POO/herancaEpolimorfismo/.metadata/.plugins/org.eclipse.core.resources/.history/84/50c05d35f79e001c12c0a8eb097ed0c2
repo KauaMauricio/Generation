@@ -1,0 +1,9 @@
+package introducaoPoo;
+
+public class Cliente {
+
+	//ATRIBUTOS
+	public String nome, email;
+	public int numero;
+	
+}

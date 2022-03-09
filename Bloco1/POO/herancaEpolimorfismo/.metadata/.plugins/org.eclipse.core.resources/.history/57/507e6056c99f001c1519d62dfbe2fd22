@@ -1,0 +1,16 @@
+package Exercicio1;
+
+import java.util.Scanner;
+
+import Exercicio1.Animal;
+
+public class Preguica extends Animal{
+	
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+        Animal p = new Animal();
+	 
+	 p.som();
+}
+}

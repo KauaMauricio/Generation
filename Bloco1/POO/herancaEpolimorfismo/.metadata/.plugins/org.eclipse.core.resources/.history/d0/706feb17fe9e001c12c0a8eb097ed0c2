@@ -1,0 +1,15 @@
+package Exercicio2;
+
+public class ObjAviao {
+
+	public static void main(String[] args) {
+
+		Aviao av;
+		
+		av = new Aviao();
+		
+		System.out.println("Escolha seu tipo de avião: ");
+		
+
+	}
+}

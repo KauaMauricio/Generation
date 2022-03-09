@@ -1,0 +1,21 @@
+package introducaoPoo;
+
+public class Cliente {
+
+	//Atributos
+	public String nome, email, V, F;
+	public int numero;
+    public boolean cartaoLoja;
+	
+	//Métodos
+    public void cartaoLoja()
+    {
+    	if (cartaoLoja == true) {
+    		System.out.println("Parabéns voce é nosso cliente");
+    	}
+    	if (cartaoLoja == false) {
+    		System.out.println("Voce é não nosso cliente");
+    	}
+    }
+	
+}

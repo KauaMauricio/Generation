@@ -1,0 +1,30 @@
+package Exercicio2;
+
+import java.util.Scanner;
+
+public class ObjAviao {
+
+	public static void main(String[] args) {
+		
+		int x,a,b,c;
+		
+		Scanner sc = new Scanner(System.in);
+
+		Aviao av;
+		
+		av = new Aviao();
+		
+		System.out.println("Escolha seu tipo de avião: ");
+		
+		System.out.println("A) Avião de passeio");
+		a = sc.nextInt();
+		System.out.println("B) Avião internacional");
+		b = sc.nextInt();
+		System.out.println("C) Avião de guerra");
+		c = sc.nextInt();
+		System.out.println("");
+		
+		if (x == a) 
+
+	}
+}

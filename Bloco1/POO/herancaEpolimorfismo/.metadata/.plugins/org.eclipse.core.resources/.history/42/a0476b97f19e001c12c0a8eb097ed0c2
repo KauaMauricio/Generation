@@ -1,0 +1,8 @@
+package introducaoPoo;
+
+public class Cliente {
+
+	public String nome;
+	public double valorPorHora;
+	public int horas;
+}

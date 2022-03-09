@@ -1,0 +1,27 @@
+package exercicio1;
+
+import java.util.Scanner;
+
+public class Program {
+	
+	public static void main(String[] args) {
+
+	Scanner sc = new Scanner(System.in);
+	
+	Cliente = c1, c2;
+	
+	c1 = new Cliente();
+	c2 = new Cliente();
+	
+	System.out.println("Dados do primeiro funcionário: ");
+	c1. = sc.next();
+	c1.salario = sc.next();
+	c1.anosnaEmpresa = sc.next();
+	
+	System.out.println("Dados do segundo funcionário: ");
+	c2.nome = sc.next();
+	c2.salario = sc.next();
+	c2.anosnaEmpresa = sc.next();
+	
+}
+}

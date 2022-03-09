@@ -1,0 +1,10 @@
+package Exercicio1;
+import Exercicio1.Animal;
+public class Cachorro extends Animal{
+
+	Animal cachorro = new Animal();
+	
+	cachorro.nome 
+	
+}
+

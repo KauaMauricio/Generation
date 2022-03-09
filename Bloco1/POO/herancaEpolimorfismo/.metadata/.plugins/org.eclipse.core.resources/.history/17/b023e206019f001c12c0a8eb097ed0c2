@@ -1,0 +1,7 @@
+package Exercicio2;
+
+public class Aviao {
+
+	String AviaoPasseio, AviaoInternacional, AviaoGuerra, A, B, C;
+
+}
