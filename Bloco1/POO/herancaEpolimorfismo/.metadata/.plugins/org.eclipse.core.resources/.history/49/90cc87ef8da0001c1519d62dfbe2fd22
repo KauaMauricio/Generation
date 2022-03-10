@@ -1,0 +1,29 @@
+package Exercicio1;
+
+import java.util.ArrayList;
+import java.util.Collection;
+
+public class EstoqueLoja {
+
+	public static void main(String[] args) {
+		
+		Collection<String> itens = new ArrayList();
+		
+		itens.add("Biscoitos");
+		itens.add("Tempeiros");
+		itens.add("Bebidas");
+		itens.add("Limpeza");
+		
+		//nomes.remove(nomes);
+		
+		if (itens.isEmpty())
+		{
+			System.out.println("Lista vazia...");
+		}
+		else 
+		{
+			System.out.println("Lista nomes " + itens);
+		}
+	
+	}
+}

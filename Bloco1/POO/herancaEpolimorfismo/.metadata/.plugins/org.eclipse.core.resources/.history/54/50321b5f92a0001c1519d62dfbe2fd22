@@ -1,0 +1,10 @@
+package Exercicio2;
+
+public class Cavalo {
+
+	public String getsom()
+	{
+		return "Cavalo" + super.getSom();
+	}
+
+}

@@ -1,0 +1,27 @@
+package Exercicio1;
+
+import java.util.ArrayList;
+import java.util.Collection;
+
+public class EstoqueLoja {
+
+	public static void main(String[] args) {
+		
+		Collection<String> nomes = new ArrayList();
+		
+		nomes.add("Mario");
+		nomes.add("Mario");
+		nomes.add("Mario");
+		nomes.add("Mario");
+		
+		if (nomes.isEmpty())
+		{
+			System.out.println("Lista vazia...");
+		}
+		else 
+		{
+			System.out.println("Lista nomes " + nomes);
+		}
+	
+	}
+}

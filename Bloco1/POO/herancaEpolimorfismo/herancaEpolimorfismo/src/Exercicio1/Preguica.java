@@ -10,5 +10,6 @@ public class Preguica extends Animal{
 	    p.idadeAnimal();
 	    p.somAnimal();
 	    p.movimentoAnimal();
-}
+	    
+    }
 }

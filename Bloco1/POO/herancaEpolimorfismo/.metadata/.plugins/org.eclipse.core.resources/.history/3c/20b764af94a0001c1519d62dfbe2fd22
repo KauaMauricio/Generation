@@ -1,0 +1,11 @@
+package Exercicio2;
+
+public class Executar {
+
+	public static void main(String[] args) {
+		
+		Cachorro c = new Cachorro();
+		c.setSom("AuAu");
+	}
+
+}

@@ -1,0 +1,11 @@
+package Exercicio2;
+
+public class Cachorro extends Animal{
+		
+	public String getsom(Cavalo cav)
+	{
+		return "Som do Cachorro:" + super.getSom();
+	}
+	
+
+}
