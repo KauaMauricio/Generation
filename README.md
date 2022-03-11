@@ -18,14 +18,14 @@ Aplicar os conceitos de POO vistos em aulas durante o primeiro módulo do progra
 
 Participantes:
 
-[Kaua Mauricio]
+[Kaua Mauricio](https://github.com/KauaMauricio)
 
-[Cristian Wagmaker]
+[Cristian Wagmaker](https://github.com/criswagmaker)
 
-[Jadson Viana]
+[Jadson Viana](https://github.com/Jadsonvs)
 
-[Thaís Alline Dias]
+[Thaís Alline Dias](https://github.com/tha-alline)
 
-[Victor Martins]
+[Victor Martins](https://github.com/victormreis)
 
-[Yago Almeida]
+[Yago Almeida](https://github.com/yagorajose)
