@@ -1,1 +1,0 @@
-INDEX VERSION 1.131+D:\Generation-Brasil\Generation\Bloco1\Logica\Java\Repeticao\Repeticao\src\.metadata\.plugins\org.eclipse.jdt.core
