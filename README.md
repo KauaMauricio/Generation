@@ -15,8 +15,6 @@ Aplicar os conceitos de POO vistos em aulas durante o primeiro módulo do progra
 • Polimorfismo, Sobrecarga e Sobreescrita;
 • Collections;
 • Exceptions;
-• Participantes do Projeto
-• Bruno Sobral
 
 Participantes:
 
