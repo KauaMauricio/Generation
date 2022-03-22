@@ -18,12 +18,12 @@ public class Main {
 		String remedio4 = "Ibuprofeno";		
 		
 		ArrayList<String>remedios = new ArrayList<>();				//CRIANDO ARRAYLIST DO TIPO STRING PARA PASSARMOS O NOME DOS REMÉDIOS
-		int num =1;
+		int num =1;                                              //O PRIMEIRO NÚMERO DIGITADO COMEÇA APARTIR DO NÚMERO 1
 		boolean continuar = true;		
 		
 		try {
 			
-			while(continuar == true) {
+			while(continuar == true) {                      //OPÇÃO ENQUANTO O USUÁRIO NÃO ENCERRAR O POGRAMA
 				
 				System.out.println("Escolha a opção Desejada: \n[1]Iniciar Rotina de compra\n[2]Cadastrar produtos\n[3]Consultar produtos\n[4]Atualizar Estoque\n[5]Excluir produtos\n[6] Sair");
 				num = read.nextInt();
@@ -35,7 +35,7 @@ public class Main {
 						System.out.println("Cliente "+c1.getNome()+ " Acaba de entrar na loja!");
 						c1.falar();
 						System.out.print("o "+func1.getCargo()+" "+func1.getNome());
-						func1.atendender(); 
+						func1.atender(); 
 						c1.comprar();
 						
 					} else if (num == 2) {
@@ -65,21 +65,25 @@ public class Main {
 					    } else if (num == 6) {
 						continuar = false;
 					    }
-				        } else
+				        } else                                                          //CASO O USUÁRIO ENTRE COM UM NÚMERO DIFERENTE DE 1 A 6
 					       System.out.println("Você digitou um numero invalido!");					
 				
 			          	System.out.println("\n");
 			
 		              	}
 			
-		             	read.close();
+		             	read.close();                         //FIM DO PROGRAMA
 			
 			
-		               }catch (InputMismatchException erro ) {
+		               }catch (InputMismatchException erro ) {              //CASO O USUÁRIO ENTRE COM LETRA E NÃO COM UM NÚMERO
 		            	   
 		             	   System.out.println("Você digitou uma opção invalida por favor digite um número valido para continuar");
-	                   }  System.out.println("Programa Encerrado.");
-		
+	                   }catch (IndexOutOfBoundsException erro ) {               //CASO O USUÁRIO ATUALIZE OS ITENS DO ESTOQUE SEM ANTES CADASTRAR
+	           			System.out.println("Não é possivel atualizar ou excluir itens do estoque antes de cadastrar itens!");
+	           			
+	           		   }
+		               System.out.println("Programa Encerrado.");
+	                   
 							
 	  }
 

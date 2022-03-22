@@ -9,7 +9,7 @@ public class Funcionario extends Pessoa {
 		super.setNome(nome);         //ESTOU DIZENDO QUE A VARIÁVEL NOME ESTÁ NA CLASSE PRINCIPAL
 	}
 
-	public void atendender() {
+	public void atender() {
 		System.out.println(" está atendendo o cliente!");          //UMA MENSAGEM GUIA
 	}
 
