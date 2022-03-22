@@ -45,22 +45,22 @@ insert into tb_classe(nivel, classe, habilidade, arma)
 values(50 ,"Bardo","Lábia","Alaude");
 
 INSERT INTO tb_personagem(nome,raca,vida,defesa,ataque,classe_id)
-VALUES("Cleison","Anão",1500 ,3000, 12000, 1);
+VALUES("Melim","Anão",1500 , 3000, 2000, 1);
 
 INSERT INTO tb_personagem(nome,raca,vida,defesa,ataque,classe_id)
-VALUES("Josias","Elfo Negro",1000 , 1200 , 3000 , 5);
+VALUES("Josias","Elfo Negro", 1150, 1490 , 3000, 5);
 
 INSERT INTO tb_personagem(nome,raca,vida,defesa,ataque,classe_id)
-VALUES("Vanuza","Centauro", 5000 , 700 , 7500,2);
+VALUES("Vanessa","Centauro", 4700, 1300, 7500, 2);
 
 INSERT INTO tb_personagem(nome,raca,vida,defesa,ataque,classe_id)
-VALUES("Cleide","Humana", 500 ,6000 ,2000 , 3);
+VALUES("Marcia","Humana", 500 , 5400, 2000, 3);
 
 INSERT INTO tb_personagem(nome,raca,vida,defesa,ataque,classe_id)
-VALUES("Ariel","Construto", 2000, 8800, 4000 , 4);
+VALUES("Tonho","Construtor", 2000, 6800, 4000, 4);
 
 INSERT INTO tb_personagem(nome,raca,vida,defesa,ataque,classe_id)
-VALUES("Anitta","Elfa", 2500, 6000, 8000 , 3);
+VALUES("Ariel","Elfa", 2500, 6000, 3000, 3);
 
 
 
