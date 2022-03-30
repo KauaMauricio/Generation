@@ -1,0 +1,9 @@
+package org.generation.blogPessoal.repository;
+
+public class PostagemRepository {
+
+	public Object findAll() {
+		return null;
+	}
+
+}
